@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(185, 225, 252);
+}
+/* #mapaLima {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-left: 23%;
+  } */
+h1{
+    padding: 4%;
+    text-align: center;
+    font-family: monospace;
+    size: 100px;
+}
+.regiones{
+    width: 60vh;
+    height: 60vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 2px;
+    margin-left: 36%;
+}
+
+.regiones path{
+    fill: rgb(255, 217, 50);
+    stroke: #68310a;
+    stroke-width: 3px;
+}
+
+.regiones :hover{
+    fill: crimson;
+}
